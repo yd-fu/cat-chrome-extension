@@ -1,0 +1,19 @@
+{
+  "name": "Cattttt",
+  "version": "1.0",
+  "description": "Swing Cat",
+  "permissions": ["activeTab", "declarativeContent", "storage"],
+  "browser_action":{
+    "default_icon": "images/cat.png"
+  },
+  "chrome_url_overrides" : {
+    "newtab": "cat.html"
+  },
+  "icons": {
+    "16": "images/cat.png",
+    "32": "images/cat.png",
+    "48": "images/cat.png",
+    "128": "images/cat.png"
+  },
+  "manifest_version": 2
+}
